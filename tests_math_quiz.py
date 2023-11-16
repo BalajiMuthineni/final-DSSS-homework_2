@@ -5,7 +5,7 @@ from math_quiz import function_O, function_M, function_G
 class TestMathGame(unittest.TestCase):
 
     def test_function_O(self):
-        # Test if random numbers generated are within the specified range
+        # Test if  the random numbers generated are within the specified range here
         MINIMUM_VALUE = 1
         MAXIMUM_VALUE = 10
         for _ in range(1000):  # Test a large number of random values
@@ -13,7 +13,7 @@ class TestMathGame(unittest.TestCase):
             self.assertTrue(MINIMUM_VALUE <= rand_num <= MAXIMUM_VALUE)
 
     def test_function_M(self):
-        # Test if random arithmetic operators are one of the specified values
+        # Test if  the random arithmetic operators are one of the specified values here 
         valid_operators = ['+', '-', '*']
         for _ in range(1000):  # Test a large number of random values
             rand_operator = function_M()
@@ -22,9 +22,9 @@ class TestMathGame(unittest.TestCase):
     def test_function_G(self):
         test_cases = [
             (5, 2, '+', 7),
-            # Add more test cases here
+            # Add more of the required test cases here
 
-            # Example:
+            # Examples of test cases:
             (3, 4, '*', 12),
         ]
 
