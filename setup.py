@@ -5,6 +5,6 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
-        # List any dependencies your project might have
+        # you need Python compiler and also a windows terminal or Pycharm 
     ],
 )
